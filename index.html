@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Erik Villegas</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>Erik Villegas</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#home" onclick="navigate(event, 'home')">Inicio</a></li>
+                    <li><a href="#about" onclick="navigate(event, 'about')">Sobre Mí</a></li>
+                    <li><a href="#projects" onclick="navigate(event, 'projects')">Proyectos</a></li>
+                    <li><a href="#skills" onclick="navigate(event, 'skills')">Habilidades</a></li>
+                    <li><a href="#contact" onclick="navigate(event, 'contact')">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main-content">
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="./foto de perfil.jpg" alt="Foto de Erik Villegas" class="profile-img">
+                <h2>Erik Villegas</h2>
+                <p>Soy un desarrollador apasionado por inteligencia artificial, automatización, y el desarrollo de software.</p>
+                
+                <p>Sígueme:</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/xhito_nk?igsh=MXhha2F0bGlwaWhoMQ==" target="_blank">
+                        <img src="./instagram-logo.png" alt="Instagram" class="social-icon">
+                    </a>
+                    <a href="https://www.linkedin.com/in/erik-villegas-696a3922b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                        <img src="./linkedin-logo.png" alt="LinkedIn" class="social-icon">
+                    </a>
+                    <a href="https://github.com/ErikVillegas7" target="_blank">
+                        <img src="./github-logo.png" alt="GitHub" class="social-icon">
+                    </a>
+                </div>
+            </div>
+        </aside>
+        <div class="content">
+            <section id="home" class="section active-section">
+                <h2>Bienvenido a mi Portafolio</h2>
+                <p>Soy Erik Villegas, un desarrollador apasionado por inteligencia artificial, automatización, y el desarrollo de software.</p>
+            </section>
+            <section id="about" class="section">
+                <h2>Sobre Mí</h2>
+                <p>Actualmente soy estudiante con interés en inteligencia artificial, automatización, y desarrollo de software. He participado en diversas actividades y proyectos que me han permitido adquirir habilidades técnicas y de liderazgo.</p>
+                <p>He sido tutor en la orientación de programación en mi colegio, ayudando a los cursos iniciales. Además, he representado mis conocimientos en eventos como la Semana TIC, explicando proyectos frente a una audiencia.</p>
+            </section>
+            <section id="projects" class="section">
+                <h2>Proyectos</h2>
+                <div class="project">
+                    <h3>Remera Inteligente</h3>
+                    <img src="[ruta de la imagen]" alt="Remera Inteligente">
+                    <p>Proyecto de una remera con sensores de humedad, frecuencia cardíaca, postura, y temperatura, desarrollada en Arduino para monitorear la salud del usuario en tiempo real.</p>
+                    <a href="[enlace al proyecto]">Ver más</a>
+                </div>
+                <div class="project">
+                    <h3>Panel Solar Reciclable</h3>
+                    <img src="[ruta de la imagen]" alt="Panel Solar Reciclable">
+                    <p>Diseño y desarrollo de un panel solar utilizando piezas recicladas, capaz de almacenar energía y alimentar pequeños dispositivos.</p>
+                    <a href="[enlace al proyecto]">Ver más</a>
+                </div>
+                <div class="project">
+                    <h3>Sistema de Ahorro de Energía en el Hogar</h3>
+                    <img src="[ruta de la imagen]" alt="Sistema de Ahorro de Energía">
+                    <p>Creación de un sistema de sensores que controla el uso de luz y agua en una casa, con una app integrada para monitorear el consumo y mejorar la eficiencia energética.</p>
+                    <a href="[enlace al proyecto]">Ver más</a>
+                </div>
+                <div class="project">
+                    <h3>Elecciones en el Colegio</h3>
+                    <img src="[ruta de la imagen]" alt="Elecciones en el Colegio">
+                    <p>Desarrollo de una base de datos y sistema de votación para las elecciones estudiantiles utilizando MySQL, PHP, HTML, CSS, y JavaScript.</p>
+                    <a href="[enlace al proyecto]">Ver más</a>
+                </div>
+            </section>
+            <section id="skills" class="section">
+                <h2>Habilidades</h2>
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li><strong>Liderazgo:</strong> Capacidad para liderar equipos, asignar tareas y motivar a los compañeros para lograr objetivos comunes.</li>
+                    <li><strong>Resolución de Problemas:</strong> Enfoque proactivo para encontrar soluciones a problemas técnicos y de proyectos, adaptabilidad ante desafíos nuevos.</li>
+                    <li><strong>Trabajo en Equipo:</strong> Experiencia trabajando en proyectos colaborativos, fomentando la comunicación y el apoyo mutuo.</li>
+                    <li><strong>Aprendizaje Autónomo:</strong> Habilidad para aprender nuevas tecnologías y conceptos de forma independiente, aplicando el conocimiento adquirido en proyectos prácticos.</li>
+                    <li><strong>Comunicación:</strong> Habilidad para explicar conceptos técnicos a compañeros de equipo y presentarlos de manera clara y efectiva.</li>
+                </ul>
+                
+                <h3>Habilidades Técnicas</h3>
+                <ul>
+                    <li><strong>Python:</strong> Manejo de funciones, clases, listas y diccionarios. Uso en proyectos y prototipos.</li>
+                    <li><strong>C#:</strong> Desarrollo de aplicaciones y proyectos escolares, uso en bases de datos.</li>
+                    <li><strong>SQL:</strong> Creación y manipulación de bases de datos relacionales, consultas DML y DDL.</li>
+                    <li><strong>Arduino:</strong> Programación de microcontroladores para proyectos de automatización y monitoreo de sensores.</li>
+                    <li><strong>HTML/CSS/JS:</strong> Diseño y desarrollo de páginas web, incluyendo interacción con bases de datos y APIs.</li>
+                </ul>
+            </section>
+            
+            <section id="contact" class="section">
+                <h2>Contacto</h2>
+                <p>Puedes contactarme a través del siguiente formulario o en mis redes sociales.</p>
+                
+                <form action="enviar_correo.php" method="post" class="contact-form">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+            
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Erik Villegas. Todos los derechos reservados.</p>
+    </footer>
+    <script src="./logica.js"></script>
+</body>
+
+</html>
